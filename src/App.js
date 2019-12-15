@@ -1,16 +1,9 @@
-import React, { Component } from 'react';
-import './App.css';
-import Navbar from './components/layout/Navbar';
-import UserItem from './components/users/UserItem';
+import React, { Component } from "react";
+import "./App.css";
 
 class App extends Component {
   render() {
-    return (
-    <div className="App">
-      <Navbar title="GitHub Finder" icon='fab fa-github'/>
-      <UserItem />
-    </div>
-  );
+    return <div className="App"></div>;
   }
 }
 
